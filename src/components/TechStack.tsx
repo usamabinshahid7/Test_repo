@@ -207,6 +207,52 @@ const TechStack = () => {
           <N8AO color="#0f002c" aoRadius={2} intensity={1.15} />
         </EffectComposer>
       </Canvas>
+      
+      <div className="techstack-skills">
+        <div className="skills-category">
+          <h3>Endpoint & UEM Management</h3>
+          <div className="skills-tags">
+            <span>ManageEngine Endpoint Central</span>
+            <span>MDM</span>
+            <span>OS Deployment</span>
+            <span>Patch Management</span>
+            <span>Asset Management</span>
+          </div>
+        </div>
+        
+        <div className="skills-category">
+          <h3>Infrastructure & Networking</h3>
+          <div className="skills-tags">
+            <span>LibreNMS</span>
+            <span>Zabbix</span>
+            <span>Unifi APs</span>
+            <span>Firewalls & IDS/IPS</span>
+            <span>LAN/WAN Design</span>
+          </div>
+        </div>
+        
+        <div className="skills-category">
+          <h3>Systems & Platforms</h3>
+          <div className="skills-tags">
+            <span>Windows Server</span>
+            <span>Linux</span>
+            <span>Active Directory</span>
+            <span>Odoo ERP</span>
+            <span>ManageEngine ServiceDesk</span>
+          </div>
+        </div>
+        
+        <div className="skills-category">
+          <h3>Security & Compliance</h3>
+          <div className="skills-tags">
+            <span>ISO 27001</span>
+            <span>ISO 20000</span>
+            <span>Vulnerability Management</span>
+            <span>Endpoint Hardening</span>
+            <span>GDPR</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
