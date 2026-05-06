@@ -56,8 +56,8 @@
   padding: 40px 50px;
 }
 
-.what-content:first-of-type.what-noTouch:hover,
-.what-content:first-of-type.what-content-active {
+.what-content:nth-child(2).what-noTouch:hover,
+.what-content:nth-child(2).what-content-active {
   min-height: 85%;
 }
 
@@ -68,7 +68,7 @@
   padding: 10px 50px;
 }
 
-.what-content:first-of-type.what-noTouch:hover ~ .what-content {
+.what-content:nth-child(2).what-noTouch:hover ~ .what-content {
   min-height: 8%;
 }
 .what-content h3 {
