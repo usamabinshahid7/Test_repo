@@ -68,15 +68,6 @@ const Navbar = () => {
               <HoverLinks text="CONTACT" />
             </a>
           </li>
-          <li>
-            <a 
-              href="/Usama_Bin_Shahid_Resume.pdf" 
-              download="Usama_Bin_Shahid_Resume.pdf"
-              data-cursor="disable"
-            >
-              <HoverLinks text="RESUME" />
-            </a>
-          </li>
         </ul>
       </div>
 
