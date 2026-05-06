@@ -6,7 +6,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1.5;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   color-scheme: light dark;
   color: #eae5ec;
   background-color: var(--backgroundColor);
@@ -111,78 +111,13 @@ body {
   text-transform: uppercase;
 }
 
-.techstack-skills {
-  position: relative;
-  z-index: 10;
-  padding: 60px 40px;
-  max-width: 1400px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
+@media screen and (min-width: 768px) {
+  body {
+    --cWidth: 94%;
+  }
 }
-
-.skills-category {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 24px;
-  backdrop-filter: blur(10px);
-}
-
-.skills-category h3 {
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0 0 20px 0;
-  color: var(--accentColor);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.skills-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skills-tags span {
-  display: inline-block;
-  background: rgba(127, 64, 255, 0.1);
-  border: 1px solid rgba(127, 64, 255, 0.3);
-  padding: 8px 14px;
-  border-radius: 6px;
-  font-size: 13px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.8);
-  transition: all 0.3s ease;
-}
-
-.skills-tags span:hover {
-  background: rgba(127, 64, 255, 0.2);
-  border-color: rgba(127, 64, 255, 0.6);
-  color: #ffffff;
-}
-
 @media screen and (max-width: 900px) {
   .techstack h2 {
     font-size: 40px;
-  }
-  
-  .techstack-skills {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 24px;
-    padding: 40px 20px;
-  }
-  
-  .skills-category {
-    padding: 16px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .techstack-skills {
-    grid-template-columns: 1fr;
-    gap: 16px;
-    padding: 30px 16px;
   }
 }
