@@ -57,6 +57,7 @@
   margin: 0;
   font-weight: 500;
   line-height: 45px;
+  min-width: 140px;
 }
 
 .career-info h4 {
