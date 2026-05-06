@@ -144,6 +144,44 @@ const WhatIDo = () => {
               <div className="what-arrow"></div>
             </div>
           </div>
+          <div
+            className="what-content what-noTouch"
+            ref={(el) => setRef(el, 2)}
+          >
+            <div className="what-border1">
+              <svg height="100%">
+                <line
+                  x1="0"
+                  y1="100%"
+                  x2="100%"
+                  y2="100%"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeDasharray="6,6"
+                />
+              </svg>
+            </div>
+            <div className="what-corner"></div>
+            <div className="what-content-in">
+              <h3>DESIGN & GRAPHICS</h3>
+              <h4>Visual Creation</h4>
+              <p>
+                Creative expertise in 3D design, character animation, and graphic design. Skilled in creating visual assets, UI/UX design, motion graphics, and interactive 3D experiences that enhance digital products.
+              </p>
+              <h5>Skillset & tools</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">Blender</div>
+                <div className="what-tags">Zbrush</div>
+                <div className="what-tags">UI Design</div>
+                <div className="what-tags">Motion Graphics</div>
+                <div className="what-tags">Rigging</div>
+                <div className="what-tags">3D Animation</div>
+                <div className="what-tags">Character Design</div>
+                <div className="what-tags">Graphic Design</div>
+              </div>
+              <div className="what-arrow"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
