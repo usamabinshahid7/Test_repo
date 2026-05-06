@@ -56,11 +56,20 @@
   padding: 40px 50px;
 }
 
+.what-content:first-of-type.what-noTouch:hover,
+.what-content:first-of-type.what-content-active {
+  min-height: 85%;
+}
+
 .what-noTouch:hover ~ .what-content,
 .what-box-in:hover .what-noTouch:not(:hover),
 .what-content.what-sibling {
   min-height: 33%;
   padding: 10px 50px;
+}
+
+.what-content:first-of-type.what-noTouch:hover ~ .what-content {
+  min-height: 8%;
 }
 .what-content h3 {
   font-size: 35px;
@@ -206,7 +215,7 @@
 }
 .what-content-in {
   height: 100%;
-  overflow: visible;
+  overflow: hidden;
 }
 .what-content-in h5 {
   font-weight: 300;
